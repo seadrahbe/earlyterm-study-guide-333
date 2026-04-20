@@ -5,7 +5,7 @@ public class Practice {
     public static void main(String[] args) {
 
         // Function debugging 
-        
+
         HashSet<String> words = new HashSet<>
             (Set.of("oneword", "woword", "word", "asfhj", "orange", "old")
         );
@@ -36,12 +36,18 @@ public class Practice {
     }
 
 
-    // TODO: Implement the other methods from the README AND tests for each one
 
     // For each method you are only required to implement it for one of the data
     // structures. But use a different data structure for each method. For example,
     // do maxDiff with an array, the next question with a Set, etc.
 
+    /**
+     * Returns the longest word in an ArrayList starting with the submitted character (or string)
+     * 
+     * @param list a non-empty, non-null ArrayList of Strings
+     * @param ch a starting String or character
+     * @return the longest word starting with that String
+     */
     public static String longestWord(ArrayList<String> list, String ch) {
 
         String longestWord = "";
@@ -58,6 +64,14 @@ public class Practice {
         return longestWord;
     }
 
+    /**
+     * Returns the difference between the largest and smallest integer in an array.
+     * 
+     * @param set a set of Strings
+     * @param n the int length the String must be greater than
+     * @param m the int length the String must be less than
+     * @return the number of Strings between the two lengths
+     */
     public static int countBetween(HashSet<String> set, int n, int m) {
         int count = 0;
 
@@ -72,6 +86,14 @@ public class Practice {
         return count;
     }
 
+    
+    /**
+     * Returns the difference between the number of odd and even integers in the
+     * values of a hashmap
+     * 
+     * @param mappy the hashmap to be evaluated
+     * @return the difference between the number of odd and even integers
+     */
     public static int oddEvenDifference(HashMap<Integer, Integer> mappy) {
         int oddCount = 0;
         int evenCount = 0;
@@ -87,6 +109,12 @@ public class Practice {
         return oddCount - evenCount;
     }
 
+    /**
+     * Returns the second-largest number in the keys of the submitted hashmap
+     * 
+     * @param mappy the hashmap to be evaluated
+     * @return the second-largest number
+     */
     public static int secondLargest(HashMap<Integer, Integer> mappy) {
         int secondLargest = -1000000000;
         int largest = -1000000000;
