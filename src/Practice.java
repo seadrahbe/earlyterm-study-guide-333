@@ -1,4 +1,9 @@
 public class Practice {
+
+    public static void main(String[] args) {
+        int[] numbers = {8, -2, 9, -5};
+        maxDiff(numbers);
+    }
     /**
      * Returns the difference between the largest and smallest integer in an array.
      * 
@@ -6,8 +11,19 @@ public class Practice {
      * @return the difference between the largest and smallest number
      */
     public static int maxDiff(int[] nums) {
-        // TODO: implement this
-        return -1;
+        int big = -1000000000;
+        int small = 1000000000;
+        
+        for (int el : nums) {
+            if (el > big) {
+                big = el;
+            }
+
+            if (el < small) {
+                small = el;
+            }
+        }
+        return big - small;
     }
 
 

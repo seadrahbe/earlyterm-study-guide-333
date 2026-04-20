@@ -12,8 +12,8 @@ For each method you are only required to implement it for one of the data struct
 ## Starter Questions:
 
 Find the difference between the largest and smallest integer in:
-- An array
-- An ArrayList
+- An array X
+- An ArrayList 
 - A HashSet
 - The values of a HashMap
 - The keys of a HashMap
