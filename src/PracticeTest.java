@@ -137,6 +137,24 @@ public class PracticeTest {
 
     }
 
+    @Test
+    void testLongestWordAllSameLength() {
+        // Arrange
+        ArrayList<String> words = new ArrayList<>();
+
+        words.add("oneword");
+        words.add("onework");
+
+        // Act
+        String actual = Practice.longestWord(words, "o");
+
+        System.out.println(actual);
+
+        // Assert
+        assertEquals("oneword", actual);
+
+    }
+
     // Testing countBetween
 
     @Test
