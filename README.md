@@ -20,7 +20,7 @@ Find the difference between the largest and smallest integer in:
 
 Find the longest word that starts with a specific character letter in:
 - An array
-- An ArrayList
+- An ArrayList X
 - A HashSet
 - The values of a HashMap
 - The keys of a HashMap
@@ -28,7 +28,7 @@ Find the longest word that starts with a specific character letter in:
 Count how many words are longer than n characters and shorter than m characters in:
 - An array
 - An ArrayList
-- A HashSet
+- A HashSet X
 - The values of a HashMap
 - The keys of a HashMap
 
@@ -36,7 +36,7 @@ Find the difference between the how many odd and even numbers there are in:
 - An array
 - An ArrayList
 - A HashSet
-- The values of a HashMap
+- The values of a HashMap X
 - The keys of a HashMap
 
 Find the second-largest number in:
@@ -44,7 +44,7 @@ Find the second-largest number in:
 - An ArrayList
 - A HashSet
 - The values of a HashMap
-- The keys of a HashMap
+- The keys of a HashMap X
 
 ## Materials you should also review:
 - Java derusting
